@@ -1,11 +1,23 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: I practice in Ruby. I have a passion to learn all things Ruby, Ruby on Rails and the tools to sharpen my skills.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: stephaneliu
-github_username:  stephaneliu
+# Dependencies
+markdown:         kramdown
 
-# Build settings
-markdown: kramdown
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Sharpening Tools
+tagline:          'The love of programming'
+description:      'Honing programming skills and trying to not cut myself (too much) along the way.'
+url:              http://www.beta.com
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Stephane Liu'
+  url:            https://twitter.com/stephaneliu
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/stephaneliu
